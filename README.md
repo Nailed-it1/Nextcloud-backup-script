@@ -2,7 +2,7 @@ This script is a backup script that uses the `tar` command to create compressed 
 
 To use the script, you need to create two configuration files: `backup_dirs.conf` and `exclude_dirs.conf`.
 
-In the `backup_dirs.conf` file, you should list the directories you want to backup, one directory path per line.
+In the `include_dirs.conf` file, you should list the directories you want to backup, one directory path per line.
 
 In the `exclude_dirs.conf` file, you should list the directories (or files) you want to exclude from the backup, one directory path (or file path) per line.
 
